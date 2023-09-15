@@ -6,7 +6,7 @@ public class ExampleOperatorIDNumber {
         System.out.println("after evaluation , x = "+ x);
         x = 10;
         System.out.println("Initial value of x = "+ x);
-        System.out.println("++x ="+ ++x); //dalah pre-increment dan menginkrementasikan x terlebih dahulu sebelum menggunakan nilai yang diperbarui.
+        System.out.println("++x ="+ ++x); //adalah pre-increment dan menginkrementasikan x terlebih dahulu sebelum menggunakan nilai yang diperbarui.
         System.out.println("after evaluation , x = "+ x);
         int y = 12;
         System.out.println(x > y || y == x && y <= x);
