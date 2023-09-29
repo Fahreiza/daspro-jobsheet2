@@ -35,7 +35,7 @@ public class Selection3StudentIDNumber {
                 System.out.println(operand1 + " / " + operand2 + "=" + result);
                 break;
             default :
-            System.out.println("Mohon maaf saya tidak mengerti");
+            System.out.println("Mohon maaf saya tidak mengerti :)");
         }
     }
 }
