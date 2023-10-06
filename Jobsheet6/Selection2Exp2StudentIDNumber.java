@@ -11,7 +11,7 @@ public class Selection2Exp2StudentIDNumber {
         System.out.println("Masukan angka angle2 : ");
         angle2 =input.nextInt();
         System.out.println("Masukan angka angle3 : ");
-        angle3 = input.nextInt;
+        angle3 = input.nextInt();
 
         total = angle1+angle2+angle3;
 

@@ -8,14 +8,18 @@ public class experiment1 {
 
         System.out.println("input year : ");
         year =input.nextInt();
-
-        if (year%4 == 0){
-            if(year%100 != 0){
-                System.out.println("leap year "+ year);
-            }
-            else
-            System.out.println( "not a leap year " + year);
-        }
+    if (year % 400 == 0) {
+      System.out.println(year + " Leap year");
+    }
+    else if (year % 100 == 0) {
+      System.out.println(year + " Not leap year");
+    }
+    else if (year % 4 == 0) {
+      System.out.println(year + " Leap year ");
+    }
+    else {
+      System.out.println(year + " Not leap year ");
+    }
 
      input.close();
 
