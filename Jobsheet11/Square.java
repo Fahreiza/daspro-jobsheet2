@@ -1,3 +1,5 @@
+package Jobsheet11;
+
 import java.util.Scanner;
 
 public class Square {
