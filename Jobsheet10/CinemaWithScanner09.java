@@ -1,3 +1,5 @@
+package Jobsheet10;
+
 import java.util.Scanner;
 
 public class CinemaWithScanner09 {
